@@ -1,0 +1,2 @@
+# Run the linter
+npm run lint-stage

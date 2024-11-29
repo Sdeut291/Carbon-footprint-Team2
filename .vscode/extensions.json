@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "orta.vscode-jest",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "vivaxy.vscode-conventional-commits",
+    "esbenp.prettier-vscode"
+  ]
+}

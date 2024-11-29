@@ -1,0 +1,4 @@
+.nav-bar-wrapper {
+  height: calc(100vh - var(--ds-shape-size-y-header));
+  top: var(--ds-shape-size-y-header);
+}

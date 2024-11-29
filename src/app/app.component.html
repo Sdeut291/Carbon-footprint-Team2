@@ -1,0 +1,19 @@
+<ds-header
+  [navBarRef]="navBar"
+  appName="{{ title }}"
+  [environmentTag]="environmentTagConfig()"
+  [userInfo]="userInfo()"
+>
+</ds-header>
+<div class="d-flex">
+  <div class="nav-bar-wrapper position-sticky">
+    <ds-navigation-bar
+      class="nav-bar-wrapper position-sticky"
+      #navBar
+      [items]="navigationItems()"
+    ></ds-navigation-bar>
+  </div>
+  <div class="container-fluid py-6x">
+    <app-dashboard></app-dashboard>
+  </div>
+</div>
